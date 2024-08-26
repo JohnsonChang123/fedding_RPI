@@ -1,10 +1,10 @@
 {
 
     "fishDB": {
-        "host": "34.81.183.159",
-        "user": "lab403",
-        "password": "66386638",
-        "database": "ar4DB"
+        "host": "...",
+        "user": "",
+        "password": "",
+        "database": ""
       },
 
       "camera_config": {
