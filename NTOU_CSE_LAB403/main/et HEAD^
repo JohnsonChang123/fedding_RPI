@@ -1,0 +1,59 @@
+[33m0e9aa3b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Save as PNG format
+[33m9e10123[m Rewrite it, handle ERROR directly using try...error.
+[33m90eda93[m Minor changes
+[33ma0ec7a2[m Add try...except for error handling.
+[33maebbc8a[m Add two D-Link cameras in the comments.
+[33m3f4a4a3[m Add two D-Link cameras in the comments.
+[33mc3a6bbf[m Little change.
+[33mb3a76f8[m Little change.
+[33mb9b70de[m Little change.
+[33m6f94d43[m Little change.
+[33m8374311[m Added command to synchronize with the latest repository.
+[33mb2e3acc[m Little change.
+[33m4ee0c1f[m Fix bugs.
+[33m61a5de2[m Use MySQL's update to upload the frame.
+[33mf2f00a8[m Minor update
+[33mc9ad26b[m Minor update
+[33m53358d3[m Add README.md
+[33m6b33851[m Add README.md
+[33m1031808[m Add try...except block.
+[33m5788761[m Adjust sampling image frequency.
+[33m003b686[m Minor Modifications
+[33mf270f8f[m Minor Modifications.
+[33mbd5ccff[m[33m ([m[1;32mtrial_1[m[33m)[m Corrected RTSP user information
+[33m63984bc[m Adjusting indentation.
+[33ma324da0[m Add button for recording video v2.
+[33mcff2a38[m Add recording a frame per second.
+[33mec79951[m Minor correction: Use the current date as the folder name.
+[33mb9ea029[m Update the path of recording.py.
+[33m2a741c1[m Temporarily move back to the video folder XD.
+[33m81e55d1[m Add upload of current time: update_time
+[33m8e9bc63[m Correcting a typo.
+[33me536d7d[m Correcting a typo.
+[33m06cdbcb[m Organized into the main folder, but the videos are still stored in the 'video' folder.
+[33m2869c8d[m Add button for recording video v1.
+[33m229cc3e[m Modify the IP for RTSP.
+[33mf04dce1[m Added feature: Automatically create a folder daily and save recorded videos for each day.
+[33m46feeff[m Merge the functionalities of save_mp4.py and ticktack.py
+[33m25af53e[m Add button for resetting the feeding command.
+[33m294fffe[m Resetting instructions for GCP VM database.
+[33m4a5afe0[m Add button functionality to send commands to ESP32.
+[33ma78e98b[m Updated configuration for AVTECH camera.
+[33m011ab46[m Update serial port name and baud rate.
+[33m9b489c0[m Update baud rate.
+[33m54bfc36[m Enabled Arduino to respond to received commands.
+[33mbb8274c[m Update the file path for executing other Python scripts.
+[33m8cd59a3[m Added default images to the upload_frames folder.
+[33mcd550e8[m Updated the storage path for frames in upload.py.
+[33m5e17210[m Modify Comments
+[33mf180cb7[m Add handling for network connection failure.
+[33mb1ef00e[m Adjust Database Configuration
+[33m6825e71[m Add Feature: Record an MP4 files at regular intervals.
+[33md6b4fcd[m Add Feature: Streaming, upload_frames & UI(tkinter)
+[33m9506bac[m arduino(O) Arduino(X)
+[33m0570d19[m Install library via running this .sh file
+[33m790a201[m Send the whole instruction to Arduino.
+[33m4dbc30d[m Convert the variable 'new_fetch_interval' to an integer data type.
+[33me6a3320[m Rewrite decision format
+[33m023a73e[m comment out 'COM3' and uncomment 'ttyACM0' in serial port
+[33mddc9ae6[m Initial Commit

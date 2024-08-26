@@ -1,0 +1,17 @@
+{
+
+    "fishDB": {
+        "host": "34.81.183.159",
+        "user": "lab403",
+        "password": "66386638",
+        "database": "ar4DB"
+      },
+
+      "camera_config": {
+        "local": "rtsp://Admin:1234@192.168.7.21/cam0/h264",
+        "d_link01": "rtsp://admin:451466@192.168.1.51/live/profile.0",
+        "d_link02": "rtsp://admin:227182@192.168.1.21/live/profile.0",
+        "dynacolor01": "rtsp://Admin:1234@192.168.50.250/cam0/h264",
+        "dynacolor02": "rtsp://Admin:1234@192.168.50.251/cam0/h264"
+      }
+}
