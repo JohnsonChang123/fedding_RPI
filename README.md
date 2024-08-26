@@ -36,5 +36,5 @@ NTOU_CSE_Lab403/
 │   ├── fetch_to_arduino.py
 │   └── install_library.sh
 ├── fetch2GCP.sh                       # 上傳訓練資料至GCP
-└── rebootsetting.sh                   # 當RPI重開時重啟所有程式
+├── rebootsetting.sh                   # 當RPI重開時重啟所有程式
 └──watchdogcrentsensor                 # 電流感測器
