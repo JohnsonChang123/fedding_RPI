@@ -6,7 +6,7 @@ https://consumesky.notion.site/Raspberry-Pi-67234e0ea87345b4aa4d07739c3fbea9
 # 監視器 & NVR 設定教學
 https://www.notion.so/NVR-cef7674b61c445eb944c6f175a19c66f
 # 目錄 
--NTOU_CSE_Lab403
+-NTOU_CSE_Lab403/n
     --main
         ---download_frames
             ----download_frame.py        下載串流影像(確認成功用)
