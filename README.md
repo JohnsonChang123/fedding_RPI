@@ -8,6 +8,12 @@
   [Raspberry Pi 安裝教學](https://consumesky.notion.site/Raspberry-Pi-67234e0ea87345b4aa4d07739c3fbea9)
 - **監視器 & NVR 設定教學**  
   [監視器 & NVR 設定教學](https://www.notion.so/NVR-cef7674b61c445eb944c6f175a19c66f)
+## crontab
+
+0 6 * * * sh /home/pi/Desktop/NTOU_CSE_LAB403/fetch2GCP.sh
+@reboot sleep 30 ; sudo sh /home/pi/Desktop/ssh_tunel_GCP.sh
+* * * * * sudo -u pi nohup python -u /home/pi/Desktop/NTOU_CSE_LAB403/main/uploadv2.py >> /home/pi/Desktop/NTOU_CSE_LAB403/main/log/uploadframe.log 2>&1 &
+##       
 
 ## 目錄結構
 
@@ -38,3 +44,4 @@ NTOU_CSE_Lab403/
 ├── fetch2GCP.sh                       # 上傳訓練資料至GCP
 ├── rebootsetting.sh                   # 當RPI重開時重啟所有程式
 └──watchdogcrentsensor                 # 電流感測器
+plaintext```
