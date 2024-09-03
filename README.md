@@ -20,6 +20,8 @@
   [Raspberry Pi 安裝教學](https://consumesky.notion.site/Raspberry-Pi-67234e0ea87345b4aa4d07739c3fbea9)
  **監視器 & NVR 設定教學**  
   [監視器 & NVR 設定教學](https://www.notion.so/NVR-cef7674b61c445eb944c6f175a19c66f)
+ **電流感測器電路教學**  
+  [電流感測器電路教學](https://cms.35g.tw/coding/arduino-using-sct013-measure-current/)
 
 ## crontab
 
@@ -52,14 +54,17 @@
  用來和投餌機的 ESP32 進行序列埠通訊
  電機系使用參數: Baud rate = 115200
  * fetch_to_arduino.py 從 GCP VM DB 拿投餌指令並傳遞給 ESP32
- * log.py 備份ESP32上傳資料
- * 
+ * log.py 備份ESP32上傳資料 (施工中........)
+ ### watchdogcrentsensor
+ 配合SCT013用來檢測舊料桶是否開啟
+ * watchdogcrentsensor.ino
  ## 更新github最新的repository
  在 cmd 下指令
 ```bash
 git fetch
 git reset  --hard origin/main
 ```
+
 ## 目錄結構
 
 ```plaintext
