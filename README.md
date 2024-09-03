@@ -28,6 +28,7 @@
 @reboot sleep 30 ; sudo sh /home/pi/Desktop/ssh_tunel_GCP.sh
 * * * * * sudo -u pi nohup python -u /home/pi/Desktop/NTOU_CSE_LAB403/main/uploadv2.py >> /home/pi/Desktop/NTOU_CSE_LAB403/main/log/uploadframe.log 2>&1 &
 ```
+##部署在養殖現場的 Raspberry Pi
 ### main
 * user.py 可以用 tkinter 介面執行各功能
 * monitor.py 用 RTSP 查看串流的監視器畫面，現在改用 tkinter 秀出來，並包含一個結束按鈕
