@@ -64,6 +64,8 @@
 git fetch
 git reset  --hard origin/main
 ```
+## ssh tunnel  
+https://www.notion.so/ssh-tunnel-9ad6af6999b84130bef589dedd9ee4f2?pvs=4
 
 ## 目錄結構
 
