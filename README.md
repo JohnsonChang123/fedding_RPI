@@ -24,7 +24,11 @@
   [電流感測器電路教學](https://cms.35g.tw/coding/arduino-using-sct013-measure-current/)
 
 ## crontab
-
+在CMD 打
+```bash 
+crontab -e
+```
+設定腳本定時執行
 ```bash
 0 6 * * * sh /home/pi/Desktop/NTOU_CSE_LAB403/fetch2GCP.sh
 @reboot sleep 30 ; sudo sh /home/pi/Desktop/ssh_tunel_GCP.sh
